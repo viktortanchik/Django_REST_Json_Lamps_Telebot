@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- IMG -->
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'login/img/2.jpg' %}" width="40%" height="50%" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'login/img/1.jpg' %}"  width="40%" height="50%" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'login/img/3.jpg' %}" width="40%" height="50%" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+</div>
+      </div></p>
+        </div>
+<!-- IMG -->
+   <style>
+     body{
+    background: url('{% static "login/img/example.jpg" %}') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    }
+ </style>
+
+<!-- Поле навигации
+<header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom shadow-sm">
+        <a class="h5 my-0 me-md-auto text-white "> Artpetry</a>
+  <nav class="my-2 my-md-0 me-md-3">
+    <a class="p-2 text-white " href="#">Продукты</a>
+    <a class="p-2 text-white " href="setup_lamp">Инструкция</a>
+    <a class="p-2 text-white " href="contact">Контакты</a>
+  </nav>
+  <a class="btn btn-outline-primary" href="/login">Sign up</a>
+</header>
+-->
+</body>
+</html>
